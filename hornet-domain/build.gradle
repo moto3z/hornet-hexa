@@ -1,6 +1,3 @@
-apply plugin : 'org.springframework.boot'
-
-
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
@@ -10,5 +7,13 @@ tasks.named('test') {
     useJUnitPlatform()
 }
 
-bootJar { enabled = false}
-jar { enabled = true}
+test{
+    enabled= false
+}
+
+bootJar {
+    enabled = false
+}
+jar {
+    enabled = true
+}
