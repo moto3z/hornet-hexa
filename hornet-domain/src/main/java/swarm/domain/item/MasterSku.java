@@ -1,4 +1,4 @@
-package swarm.hornetdomain.item;
+package swarm.domain.item;
 
 public class MasterSku {
 

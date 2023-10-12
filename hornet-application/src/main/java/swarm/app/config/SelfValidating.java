@@ -1,4 +1,4 @@
-package swarm.hornetapplication.config;
+package swarm.app.config;
 
 
 import jakarta.validation.ConstraintViolation;

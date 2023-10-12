@@ -1,4 +1,4 @@
-package swarm.hornetdomain.order.types;
+package swarm.domain.order.types;
 
 public enum CommerceType {
     _11ST(""),

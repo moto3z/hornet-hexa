@@ -1,8 +1,8 @@
-package swarm.hornetdomain.order;
+package swarm.domain.order;
 
 import java.time.LocalDateTime;
-import swarm.hornetdomain.order.types.CommerceType;
-import swarm.hornetdomain.order.types.PaymentType;
+import swarm.domain.order.types.CommerceType;
+import swarm.domain.order.types.PaymentType;
 
 public class MasterOrder {
     private String masterOrderCode;

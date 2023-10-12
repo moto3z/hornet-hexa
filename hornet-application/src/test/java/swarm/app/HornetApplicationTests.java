@@ -1,10 +1,10 @@
-package swarm.hornetdomain;
+package swarm.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HornetDomainApplicationTests {
+class HornetApplicationTests {
 
     @Test
     void contextLoads() {
