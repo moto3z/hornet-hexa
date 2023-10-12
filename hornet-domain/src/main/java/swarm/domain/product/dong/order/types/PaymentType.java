@@ -1,4 +1,4 @@
-package swarm.domain.order.types;
+package swarm.domain.product.dong.order.types;
 
 public enum PaymentType {
     KAKAO_PAY("카카오페이"),

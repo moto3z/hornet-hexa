@@ -1,8 +1,8 @@
-package swarm.domain.order;
+package swarm.domain.product.dong.order;
 
 import java.time.LocalDateTime;
-import swarm.domain.order.types.CommerceType;
-import swarm.domain.order.types.PaymentType;
+import swarm.domain.product.dong.order.types.CommerceType;
+import swarm.domain.product.dong.order.types.PaymentType;
 
 public class MasterOrder {
     private String masterOrderCode;

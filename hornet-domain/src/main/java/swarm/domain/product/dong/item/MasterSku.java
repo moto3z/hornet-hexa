@@ -1,4 +1,4 @@
-package swarm.domain.item;
+package swarm.domain.product.dong.item;
 
 public class MasterSku {
 

@@ -2,7 +2,7 @@ package swarm.app.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import swarm.domain.item.MasterLot;
+import swarm.domain.product.dong.item.MasterLot;
 
 @RestController
 public class TestController {

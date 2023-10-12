@@ -1,6 +1,17 @@
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+
+    // test
+    implementation 'com.google.guava:guava:32.1.1-jre'
+
+    // SQL Logger
+    implementation 'p6spy:p6spy:3.9.1'
+    compileOnly 'org.projectlombok:lombok'
+    runtimeOnly 'com.h2database:h2'
 }
 
 tasks.named('test') {
@@ -14,6 +25,11 @@ test{
 bootJar {
     enabled = false
 }
+
 jar {
     enabled = true
+}
+
+java {
+    sourceCompatibility = '17'
 }
