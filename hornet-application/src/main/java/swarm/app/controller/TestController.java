@@ -13,7 +13,8 @@ public class TestController {
     }
 
     @GetMapping("/2")
-    public String get2() {
-        MasterLot.
+    public MasterLot get2() {
+        MasterLot masterLot = new MasterLot(2L);
+        return masterLot;
     }
 }
